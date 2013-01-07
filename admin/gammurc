@@ -1,0 +1,4 @@
+[gammu]
+model=auto
+port=com3
+connection=at115200

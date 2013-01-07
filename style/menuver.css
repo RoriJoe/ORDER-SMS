@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+div.mymenuver{
+	width: 150px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	background: url(../images/buttons/bottom.gif) no-repeat  right bottom;
+	color: #fff;
+}
+
+div.mymenuver div{
+	background: url(../images/buttons/title.gif) repeat-x;
+	overflow: hidden;
+}
+
+div.mymenuver div:first-child{
+	background: url(../images/buttons/toptitle.gif) no-repeat;
+}
+
+div.mymenuver div.collapsed{
+	height: 25px;
+}
+
+div.mymenuver div span{
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	color: white;
+	background: url(../images/buttons/expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+}
+
+div.mymenuver div.collapsed span{
+	background-image: url(../images/buttons/collapsed.gif);
+}
+
+div.mymenuver div a{
+	padding: 5px 10px;
+	background: #eee;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #066;
+}
+
+div.mymenuver div a.mymenuvercurrent{
+	background : #ccc;
+}
+
+div.mymenuver div a:hover{
+	background : #066 url(../images/buttons/linkarrow.gif) no-repeat right center;
+	color: #fff;
+	text-decoration: none;
+}
